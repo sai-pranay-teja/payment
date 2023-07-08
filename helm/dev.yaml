@@ -1,1 +1,2 @@
 component: payment
+params: "CART_HOST:dev.payment.cart_host,CART_PORT:dev.payment.cart_port,USER_HOST:dev.payment.user_host,USER_PORT:dev.payment.user_port,AMQP_HOST:dev.payment.amqp_host,AMQP_USER:dev.payment.amqp_user,AMQP_PASS:dev.payment.amqp_pass"
