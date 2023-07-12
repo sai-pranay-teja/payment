@@ -3,3 +3,12 @@ params: "CART_HOST:dev.payment.cart_host,CART_PORT:dev.payment.cart_port,USER_HO
 
 
 env: dev
+
+
+resources:
+   limits:
+     cpu: 700m
+     memory: 512Mi
+   requests:
+     cpu: 600m
+     memory: 256Mi
